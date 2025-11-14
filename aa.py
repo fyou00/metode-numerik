@@ -1,7 +1,8 @@
-isLoggedIn = true
+# 2x^2+3x-4
 
-# if / else
-if isLoggedIn:
-    print("User is logged in")
-else:
-    print("User is not logged in")
+def f(x):
+  return 2*x**2 + 3*x - 4
+    
+for x in range(-3, 3):
+  print("x=", x, end="\t f(x)= ")
+  print(f(x))
